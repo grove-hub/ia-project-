@@ -88,6 +88,7 @@ function FloatingParticles() {
           count={particles.length / 3}
           array={particles}
           itemSize={3}
+          args={[particles, 3]}
         />
       </bufferGeometry>
       <pointsMaterial
@@ -109,7 +110,13 @@ function EnergyLines() {
   useFrame((state) => {
     if (linesRef.current) {
       linesRef.current.rotation.y += 0.002;
-      linesRef.current.material.opacity = 0.3 + Math.sin(state.clock.elapsedTime * 2) * 0.2;
+      if (Array.isArray(linesRef.current.material)) {
+        linesRef.current.material.forEach(mat => {
+          if ('opacity' in mat) mat.opacity = 0.3 + Math.sin(state.clock.elapsedTime * 2) * 0.2;
+        });
+      } else if ('opacity' in linesRef.current.material) {
+        linesRef.current.material.opacity = 0.3 + Math.sin(state.clock.elapsedTime * 2) * 0.2;
+      }
     }
   });
 
@@ -133,6 +140,19 @@ function EnergyLines() {
             -25, 0, 25, 25, 0, -25,
           ])}
           itemSize={3}
+          args={[new Float32Array([
+            // Lignes horizontales
+            -25, 0, -25, 25, 0, -25,
+            -25, 0, 0, 25, 0, 0,
+            -25, 0, 25, 25, 0, 25,
+            // Lignes verticales
+            -25, 0, -25, -25, 0, 25,
+            0, 0, -25, 0, 0, 25,
+            25, 0, -25, 25, 0, 25,
+            // Lignes diagonales
+            -25, 0, -25, 25, 0, 25,
+            -25, 0, 25, 25, 0, -25,
+          ]), 3]}
         />
       </bufferGeometry>
       <lineBasicMaterial

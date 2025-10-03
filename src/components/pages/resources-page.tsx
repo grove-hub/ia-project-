@@ -104,7 +104,7 @@ export function ResourcesPage() {
   const [selectedTag, setSelectedTag] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
 
-  const { ref, inView } = useInView({
+  const { inView } = useInView({
     triggerOnce: true,
     threshold: 0.1
   });

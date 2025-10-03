@@ -186,7 +186,7 @@ export function DemoPage() {
               <div>
                 <p className="text-sm sm:text-base text-yellow-200 font-medium">IA en travaux</p>
                 <p className="text-xs sm:text-sm text-yellow-100/80">
-                  En attente d'une clé API. La recherche fonctionne en mode démo avec des résultats simulés.
+                  En attente d&apos;une clé API. La recherche fonctionne en mode démo avec des résultats simulés.
                 </p>
               </div>
             </CardContent>

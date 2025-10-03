@@ -92,7 +92,7 @@ export function TestimonialsSection() {
                   {/* Quote */}
                   <blockquote className="text-center mb-8">
                     <p className="text-muted-foreground leading-relaxed italic">
-                      "{testimonial.quote}"
+                      &quot;{testimonial.quote}&quot;
                     </p>
                   </blockquote>
 
@@ -189,7 +189,7 @@ export function TestimonialsSection() {
               </p>
             </div>
             <div className="flex items-center space-x-2 text-primary font-medium">
-              <span>Commencer l'essai</span>
+              <span>Commencer l&apos;essai</span>
               <Star className="h-4 w-4" />
             </div>
           </div>

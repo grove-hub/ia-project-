@@ -51,7 +51,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-muted-foreground mb-6 max-w-md">
-              L'IA qui révolutionne la recherche juridique en gestion des déchets. 
+              L&apos;IA qui révolutionne la recherche juridique en gestion des déchets. 
               Recherche instantanée dans les textes de loi, jurisprudences et normes environnementales.
             </p>
             
@@ -76,7 +76,7 @@ export function Footer() {
               asChild
               className="bg-primary hover:bg-primary/90 text-primary-foreground hover-glow"
             >
-              <Link href="/demo">Essayer l'IA</Link>
+              <Link href="/demo">Essayer l&apos;IA</Link>
             </Button>
           </div>
 

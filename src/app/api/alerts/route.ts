@@ -24,10 +24,10 @@ const mockAlerts = [
   }
 ];
 
-export async function GET(request: NextRequest) {
+export async function GET() {
   try {
-    const { searchParams } = new URL(request.url);
-    const userId = searchParams.get('userId') || 'demo-user';
+    // const { searchParams } = new URL(request.url);
+    // const userId = searchParams.get('userId') || 'demo-user';
 
     // Simulation de délai
     await new Promise(resolve => setTimeout(resolve, 300));
@@ -53,7 +53,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, keywords, jurisdiction, frequency, userId } = body;
+    const { name, keywords, jurisdiction, frequency } = body;
 
     // Validation des données
     if (!name || !keywords || !jurisdiction || !frequency) {

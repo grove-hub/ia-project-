@@ -34,7 +34,7 @@ export function HeroSection() {
           >
             <Sparkles className="h-4 w-4 text-primary" />
             <span className="text-sm font-medium text-primary">
-              Nouvelle génération d'IA juridique
+              Nouvelle génération d&apos;IA juridique
             </span>
           </motion.div>
 
@@ -45,7 +45,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground mb-6 leading-tight"
           >
-            L'IA qui révolutionne la{" "}
+            L&apos;IA qui révolutionne la{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent neon-text">
               recherche juridique
             </span>{" "}
@@ -76,7 +76,7 @@ export function HeroSection() {
               className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 rounded-xl hover-glow cursor-glow group"
             >
               <Link href="/demo" className="flex items-center space-x-2">
-                <span>Essayer l'IA</span>
+                <span>Essayer l&apos;IA</span>
                 <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>

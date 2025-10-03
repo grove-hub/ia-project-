@@ -103,7 +103,7 @@ export function ProblemsSection() {
           <div className="inline-flex items-center space-x-2 bg-primary/10 border border-primary/20 rounded-2xl px-6 py-4">
             <AlertTriangle className="h-5 w-5 text-primary" />
             <span className="text-foreground font-medium">
-              Ces problèmes vous coûtent du temps et de l'argent. Notre IA les résout.
+              Ces problèmes vous coûtent du temps et de l&apos;argent. Notre IA les résout.
             </span>
           </div>
         </motion.div>

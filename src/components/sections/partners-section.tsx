@@ -59,7 +59,7 @@ export function PartnersSection() {
             </span>
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
-            Des entreprises leaders du secteur des déchets et de l'environnement 
+            Des entreprises leaders du secteur des déchets et de l&apos;environnement 
             utilisent notre IA pour optimiser leur conformité réglementaire.
           </p>
         </motion.div>
@@ -108,7 +108,7 @@ export function PartnersSection() {
                 €2M+
               </div>
               <div className="text-sm text-muted-foreground">
-                Chiffre d'affaires total des clients
+                Chiffre d&apos;affaires total des clients
               </div>
             </div>
             <div className="p-6 rounded-2xl bg-primary/5 border border-primary/10">

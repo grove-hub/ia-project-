@@ -49,7 +49,7 @@ export function CtaSection() {
             ?
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
-            Rejoignez des centaines d'entreprises qui font confiance à notre IA 
+            Rejoignez des centaines d&apos;entreprises qui font confiance à notre IA 
             pour optimiser leur gestion des déchets et assurer leur conformité.
           </p>
         </motion.div>
@@ -109,7 +109,7 @@ export function CtaSection() {
                   className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 rounded-xl hover-glow cursor-glow group"
                 >
                   <Link href="/demo" className="flex items-center space-x-2">
-                    <span>Essayer l'IA gratuitement</span>
+                    <span>Essayer l&apos;IA gratuitement</span>
                     <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </Button>
