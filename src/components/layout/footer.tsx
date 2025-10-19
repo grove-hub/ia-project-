@@ -47,7 +47,7 @@ export function Footer() {
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <Scale className="h-8 w-8 text-primary glow-effect" />
               <span className="text-xl font-bold text-foreground">
-                IA Juridique <span className="text-primary">Déchets</span>
+                <span className="text-primary">EcoMind</span>
               </span>
             </Link>
             <p className="text-muted-foreground mb-6 max-w-md">
@@ -153,7 +153,7 @@ export function Footer() {
         <div className="border-t border-border/50 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-muted-foreground">
-              © {currentYear} IA Juridique Déchets. Tous droits réservés.
+              © {currentYear} EcoMind. Tous droits réservés.
             </div>
             
             {/* Social Links */}

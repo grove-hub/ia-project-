@@ -12,14 +12,14 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "IA Juridique Déchets - Recherche instantanée dans les textes de loi",
-    template: "%s | IA Juridique Déchets"
+    default: "EcoMind - Recherche instantanée dans les textes de loi",
+    template: "%s | EcoMind"
   },
   description: "Recherche instantanée dans les textes de loi, jurisprudences et normes environnementales. Conformité, audits et veille en un clic pour la gestion des déchets.",
   keywords: ["IA juridique", "droit des déchets", "conformité environnementale", "recherche juridique", "veille réglementaire", "audit déchets"],
-  authors: [{ name: "IA Juridique Déchets" }],
-  creator: "IA Juridique Déchets",
-  publisher: "IA Juridique Déchets",
+  authors: [{ name: "EcoMind" }],
+  creator: "EcoMind",
+  publisher: "EcoMind",
   formatDetection: {
     email: false,
     address: false,
@@ -35,13 +35,13 @@ export const metadata: Metadata = {
     url: "https://ia-juridique-dechets.com",
     title: "L'IA qui révolutionne la recherche juridique en gestion des déchets",
     description: "Recherche instantanée dans les textes de loi, jurisprudences et normes environnementales. Conformité, audits et veille en un clic.",
-    siteName: "IA Juridique Déchets",
+    siteName: "EcoMind",
   },
   twitter: {
     card: "summary_large_image",
     title: "L'IA qui révolutionne la recherche juridique en gestion des déchets",
     description: "Recherche instantanée dans les textes de loi, jurisprudences et normes environnementales.",
-    creator: "@iajuridique",
+    creator: "@ecomind",
   },
   robots: {
     index: true,

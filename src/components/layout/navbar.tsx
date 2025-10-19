@@ -49,7 +49,7 @@ export function Navbar() {
               </div>
             </div>
             <span className="text-xl font-bold text-foreground">
-              IA Juridique <span className="text-primary">Déchets</span>
+              <span className="text-primary">EcoMind</span>
             </span>
           </Link>
 
@@ -94,7 +94,7 @@ export function Navbar() {
                   <div className="flex items-center space-x-2">
                     <Scale className="h-6 w-6 text-primary" />
                     <span className="text-lg font-bold text-foreground">
-                      IA Juridique
+                      <span className="text-primary">EcoMind</span>
                     </span>
                   </div>
                 </div>
