@@ -4,48 +4,54 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  /* Palette IA Juridique - Déchets */
-  --color-primary: #16A34A; /* Vert primaire */
+  /* Palette IA Juridique - Bleu professionnel */
+  --color-primary: #3B82F6;
+  /* Bleu primaire */
   --color-primary-foreground: #FFFFFF;
-  --color-secondary: #065F46; /* Vert foncé */
+  --color-secondary: #1E40AF;
+  /* Bleu foncé */
   --color-secondary-foreground: #FFFFFF;
-  --color-accent: #00FF88; /* Vert néon */
-  --color-accent-foreground: #0B0F14;
-  --color-background: #0B0F14; /* Charcoal */
-  --color-foreground: #FFFFFF;
-  --color-card: #1A1F2E;
-  --color-card-foreground: #FFFFFF;
-  --color-popover: #1A1F2E;
-  --color-popover-foreground: #FFFFFF;
-  --color-muted: #94A3B8; /* Gris */
+  --color-accent: #60A5FA;
+  /* Bleu clair */
+  --color-accent-foreground: #1E293B;
+  --color-background: #0F172A;
+  /* Bleu très foncé/charcoal */
+  --color-foreground: #E2E8F0;
+  /* Gris doux */
+  --color-card: #1E293B;
+  --color-card-foreground: #E2E8F0;
+  --color-popover: #1E293B;
+  --color-popover-foreground: #E2E8F0;
+  --color-muted: #94A3B8;
+  /* Gris */
   --color-muted-foreground: #64748B;
   --color-border: #334155;
   --color-input: #334155;
-  --color-ring: #16A34A;
+  --color-ring: #3B82F6;
   --color-destructive: #EF4444;
   --color-destructive-foreground: #FFFFFF;
-  
+
   /* Fonts */
   --font-sans: 'Inter', 'Manrope', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
-  
+
   /* Sidebar colors */
-  --color-sidebar: #1A1F2E;
-  --color-sidebar-foreground: #FFFFFF;
-  --color-sidebar-primary: #16A34A;
+  --color-sidebar: #1E293B;
+  --color-sidebar-foreground: #E2E8F0;
+  --color-sidebar-primary: #3B82F6;
   --color-sidebar-primary-foreground: #FFFFFF;
-  --color-sidebar-accent: #065F46;
+  --color-sidebar-accent: #1E40AF;
   --color-sidebar-accent-foreground: #FFFFFF;
   --color-sidebar-border: #334155;
-  --color-sidebar-ring: #16A34A;
-  
+  --color-sidebar-ring: #3B82F6;
+
   /* Chart colors */
-  --color-chart-1: #16A34A;
-  --color-chart-2: #00FF88;
-  --color-chart-3: #065F46;
+  --color-chart-1: #3B82F6;
+  --color-chart-2: #60A5FA;
+  --color-chart-3: #1E40AF;
   --color-chart-4: #94A3B8;
   --color-chart-5: #64748B;
-  
+
   /* Border radius */
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -55,54 +61,81 @@
 
 :root {
   --radius: 0.625rem;
-  /* Palette IA Juridique - Déchets */
-  --background: #0B0F14; /* Charcoal */
-  --foreground: #FFFFFF;
-  --card: #1A1F2E;
-  --card-foreground: #FFFFFF;
-  --popover: #1A1F2E;
-  --popover-foreground: #FFFFFF;
-  --primary: #16A34A; /* Vert primaire */
+  /* Palette IA Juridique - Bleu professionnel */
+  --background: #0F172A;
+  /* Bleu très foncé/charcoal */
+  --foreground: #E2E8F0;
+  /* Gris doux */
+  --card: #1E293B;
+  --card-foreground: #E2E8F0;
+  --popover: #1E293B;
+  --popover-foreground: #E2E8F0;
+  --primary: #3B82F6;
+  /* Bleu primaire */
   --primary-foreground: #FFFFFF;
-  --secondary: #065F46; /* Vert foncé */
+  --secondary: #1E40AF;
+  /* Bleu foncé */
   --secondary-foreground: #FFFFFF;
-  --muted: #94A3B8; /* Gris */
+  --muted: #94A3B8;
+  /* Gris */
   --muted-foreground: #64748B;
-  --accent: #00FF88; /* Vert néon */
-  --accent-foreground: #0B0F14;
+  --accent: #60A5FA;
+  /* Bleu clair */
+  --accent-foreground: #1E293B;
   --destructive: #EF4444;
   --border: #334155;
   --input: #334155;
-  --ring: #16A34A;
-  --chart-1: #16A34A;
-  --chart-2: #00FF88;
-  --chart-3: #065F46;
+  --ring: #3B82F6;
+  --chart-1: #3B82F6;
+  --chart-2: #60A5FA;
+  --chart-3: #1E40AF;
   --chart-4: #94A3B8;
   --chart-5: #64748B;
-  --sidebar: #1A1F2E;
-  --sidebar-foreground: #FFFFFF;
-  --sidebar-primary: #16A34A;
+  --sidebar: #1E293B;
+  --sidebar-foreground: #E2E8F0;
+  --sidebar-primary: #3B82F6;
   --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: #065F46;
+  --sidebar-accent: #1E40AF;
   --sidebar-accent-foreground: #FFFFFF;
   --sidebar-border: #334155;
-  --sidebar-ring: #16A34A;
+  --sidebar-ring: #3B82F6;
 }
 
 /* Effets futuristes et animations */
 @keyframes glow {
-  0%, 100% { box-shadow: 0 0 20px rgba(22, 163, 74, 0.3); }
-  50% { box-shadow: 0 0 30px rgba(22, 163, 74, 0.6); }
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.6);
+  }
 }
 
 @keyframes neon-pulse {
-  0%, 100% { text-shadow: 0 0 5px #00FF88, 0 0 10px #00FF88, 0 0 15px #00FF88; }
-  50% { text-shadow: 0 0 10px #00FF88, 0 0 20px #00FF88, 0 0 30px #00FF88; }
+
+  0%,
+  100% {
+    text-shadow: 0 0 5px #60A5FA, 0 0 10px #60A5FA, 0 0 15px #60A5FA;
+  }
+
+  50% {
+    text-shadow: 0 0 10px #60A5FA, 0 0 20px #60A5FA, 0 0 30px #60A5FA;
+  }
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .glow-effect {
@@ -119,26 +152,26 @@
 
 /* Gradient backgrounds */
 .bg-gradient-radial {
-  background: radial-gradient(circle at center, rgba(22, 163, 74, 0.1) 0%, #0B0F14 70%);
+  background: radial-gradient(circle at center, rgba(160, 189, 236, 0.1) 0%, #0F172A 70%);
 }
 
 .bg-grid-pattern {
-  background-image: 
-    linear-gradient(rgba(22, 163, 74, 0.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(22, 163, 74, 0.1) 1px, transparent 1px);
+  background-image:
+    linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px);
   background-size: 50px 50px;
 }
 
 /* Glassmorphism */
 .glass {
-  background: rgba(26, 31, 46, 0.8);
+  background: rgba(30, 41, 59, 0.8);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(22, 163, 74, 0.2);
+  border: 1px solid rgba(59, 130, 246, 0.2);
 }
 
 /* Hover effects */
 .hover-glow:hover {
-  box-shadow: 0 0 20px rgba(22, 163, 74, 0.5);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
   transition: box-shadow 0.3s ease;
 }
 
@@ -154,7 +187,7 @@
   left: 50%;
   width: 0;
   height: 0;
-  background: radial-gradient(circle, rgba(0, 255, 136, 0.3) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(96, 165, 250, 0.3) 0%, transparent 70%);
   transition: width 0.6s, height 0.6s;
   transform: translate(-50%, -50%);
   z-index: -1;
@@ -169,6 +202,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }

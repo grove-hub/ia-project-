@@ -46,11 +46,10 @@ export function CtaSection() {
                   Essai gratuit - Aucune carte requise
                 </Badge>
                 <h3 className="text-2xl sm:text-3xl font-bold text-foreground mb-4">
-                  Commencez votre essai gratuit dès maintenant
+                  Commencez votre essai dès maintenant
                 </h3>
                 <p className="text-muted-foreground text-lg">
-                  Testez toutes les fonctionnalités pendant 14 jours.
-                  Aucun engagement, annulation possible à tout moment.
+                  Testez toutes les fonctionnalités dès maintenant.
                 </p>
               </div>
 
@@ -61,7 +60,7 @@ export function CtaSection() {
                   className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 rounded-xl hover-glow cursor-glow group"
                 >
                   <Link href="/demo" className="flex items-center space-x-2">
-                    <span>Essayer l&apos;IA gratuitement</span>
+                    <span>Essayer l&apos;IA</span>
                     <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </Button>

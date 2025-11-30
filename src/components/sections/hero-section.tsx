@@ -46,7 +46,7 @@ export function HeroSection() {
             className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground mb-6 leading-tight"
           >
             L&apos;IA qui révolutionne la{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">
               recherche juridique
             </span>
           </motion.h1>
